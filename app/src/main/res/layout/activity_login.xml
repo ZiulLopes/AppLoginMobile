@@ -5,8 +5,12 @@
     android:id="@+id/nestedScrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
     android:background="@color/colorPrimaryDark"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <android.support.v7.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -61,7 +65,16 @@
             android:layout_marginTop="40dp"
             android:textColor="@color/colorText"
             android:background="@color/colorTextHint"
-            android:text="@string/text_logIn" />
+            android:text="@string/text_login" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtViewLinkRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_not_member"
+            android:textSize="16dp"
+            android:textColor="@color/colorText" />
 
 
     </android.support.v7.widget.LinearLayoutCompat>
