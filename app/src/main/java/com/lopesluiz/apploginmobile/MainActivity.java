@@ -18,15 +18,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Loginname = (EditText)findViewById(R.id.edtLogin);
-        Password = (EditText)findViewById(R.id.edtPassord);
-        Login = (Button)findViewById(R.id.btnLogin);
 
-        Login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Do something
-            }
-        });
     }
 }
