@@ -10,7 +10,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:background="@color/colorPrimaryDark"
-    tools:context=".LoginActivity">
+    tools:context=".activities.LoginActivity">
 
     <android.support.v7.widget.LinearLayoutCompat
         android:layout_width="match_parent"
